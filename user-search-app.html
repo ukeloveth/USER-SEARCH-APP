@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <style>
+         *{
+            box-sizing: border-box; 
+            padding: 0;
+            margin: 0;
+         }
+         body{
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+         .container{
+             position:relative; 
+             top:15px;
+             left: 440px;
+            background-color:rgb(0, 0, 22);
+            /* background-color:rgb(10, 10, 27); */
+            height: 550px;
+            width: 500px;
+            padding: 55px 47px 70px 47px;
+            border-radius: 3px;
+        } 
+        .dev{
+            display: flex;
+            color: #fff;
+            justify-content: space-between;
+        }
+        .dev li{
+         list-style: none;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 12px;
+         font-weight: bold;
+        }
+        .search{
+            margin-top: 12px;
+            display: flex;
+            width: 410px;
+            background-color:rgb(17, 17, 32);
+            padding: 10px;
+            border-radius: 8px;
+            justify-content: space-between;
+            font-size: 10px;
+            color: #fff;
+            margin-bottom: 12px;
+        }
+       .content{
+        background-color:rgb(17, 17, 32);
+        width: 410px;
+        height: 300px;
+        border-radius: 8px;
+        padding: 17px;
+       }
+       .oct{
+          display: flex;
+          
+       }
+       #octocat{
+        margin-left: 60px;
+       }
+       #octocat{
+           list-style: none;
+       }
+       #rep{
+           position: relative;
+           top: -150px;
+           left: 18px;
+           background-color: rgb(1, 1, 32);
+           width:370px ;
+           padding: 4px;
+           border-radius: 5px;
+           display: flex;
+           justify-content: space-around;
+       }
+       #rep li{
+        list-style: none;
+       }
+       .foll{
+           color: #fff;
+           font-size: 10px;
+       }
+       .Followers{
+        color: #fff;
+        font-weight: bold;
+       }
+       #san{
+           display: flex;
+           justify-content: space-around;
+           position: relative;
+           top: -130px;
+           left: -20px;
+       }
+       #san li{
+       list-style: none;
+       font-size: 11px;
+       line-height: 17px;
+       color: #fff;
+       }
+      #map li{
+          margin-bottom: 12px;
+      } 
+      #pam li{
+          margin-bottom: 12px;
+      } 
+    </style>
+</head>
+ 
+<body>
+   <!-- <p> <i class="fa fa-sun"></i></p>
+    <i class="fa fa-sun"></i>
+    <i class="fa- fa-sun"></i>
+    <i class="fa fa-sun"></i> -->
+    <div class="container">
+    <div class="dev">
+        <li>devfinder</li>
+        <li>LIGHT <img src="images/light.png"  style="width:15px;height: 12px; margin-left: 5px;"> </li>
+       </div> 
+    
+
+    <div class="search">
+        <img src="images/searchbutton.png"  width="17px" height="17px" style="color: #fff;padding:3px 3px;
+        position: relative;top: 0;left: 4px;"><h3 style="position: relative;top: 0;left: -75px;"> Search GitHub username...</h3>
+        <h5 style="width: 45px;padding: 5px;background-color: skyblue;color: #fff;text-align: center;border-radius: 4px;">Search</h5> 
+    </div>   
+
+    <div class="content">
+        <div class="oct">
+        <p ><img src="images/githublogo3.png" style="width: 70px;height: 70px; border-radius: 50%;padding: 5px;"></p>
+        <div id="octocat">
+            <li style="color: #fff;font-family: Arial, Helvetica, sans-serif;font-weight: bold;font-size: 14px;">The Octocat</li>
+            <li style="color:blue;font-family: Arial, Helvetica, sans-serif;font-weight: bold;font-size: 10px;line-height: 20px;"> @octocat</li>
+            <li style="color:#fff;font-family: Arial, Helvetica, sans-serif;font-weight: bold;font-size: 10px;line-height: 20px;">Joined 25 Jan 2011</li>
+        </div>
+        </div>
+<p style="font-size: 10px;margin-top: 20px;color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, odio id? Eos ipsa quia 
+    fugit perferendis repellendus accusantium rem, odio nulla eum, tempore error.</p>
+    </div>
+
+    <div id="rep">
+     <ul>
+         <li class="foll">Repos</li>
+         <li class="Followers">8</li>
+     </ul>
+
+     <ul>
+        <li class="foll">Followers</li>
+        <li class="Followers">3938</li>
+    </ul>
+
+    <ul>
+        <li class="foll">Followering</li>
+        <li class="Followers">9</li>
+    </ul>
+    </div>
+
+    <div id="san">
+        <div id="map">
+        <li> <i class="fa fa-map-marker" style="margin-right: 12px;"></i>San Francisco</li>
+        <li><i class="fa fa-link" style="margin-right: 12px;"></i>https://github.blog</li>
+        </div>
+
+        <div id="pam">
+            <li> <i class="fa fa-twitter"  style="margin-right: 12px;"></i>Not Available </li>
+            <li> <i class="fa fa-flag-checkered" style="margin-right: 12px;"></i> https://github.blog</li>
+            </div>
+
+    </div>
+    
+</div>
+
+
+
+</body>
+</html>
