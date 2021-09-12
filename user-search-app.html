@@ -109,6 +109,207 @@
       #pam li{
           margin-bottom: 12px;
       } 
+
+
+
+      @media (max-width:1100px) {
+     .container{
+          width: 1100px; 
+         margin-top: 10px;
+          width: fit-content; 
+         position: relative;
+         top: 0;
+         right: 5px;
+         
+     }
+     body{
+        
+        /* width: fit-content; */
+     }
+     .search{
+width: 330px;
+position: relative;
+top: 0;
+right: 6px;
+
+     }
+     #search-icon{
+        max-width:  140px;
+         font-size: 8px;
+         position: relative;
+         top: -5;
+         left: 30px;
+     }
+     .content{
+         width:330px ;
+         position: relative;
+         top: 0;
+         right: 7px;
+     }
+    #fugit{
+         margin-bottom: 20px;
+         font-size: 5px;
+     }
+     #rep{
+       width: 300px; 
+       margin-top: 15px; 
+       position: relative;
+         top: -100;
+         left: 7px;
+     }
+    }
+       @media (max-width:800px) {
+        .container{
+        max-width: 800px ;
+         margin-top: 10px;
+         /* margin-left: 50%;
+         margin-right: 50%; */
+           width: fit-content;  
+         position: relative;
+         top: 0;
+         left: 40px;
+     } 
+     body{
+        /* margin-left: 30px; */
+        align-items: center;
+        
+        
+        /* width: fit-content; */
+     
+     }
+     .search{
+width: 280px;
+position: relative;
+top: 0;
+right: 6px;
+
+     }
+
+     #search-icon{
+        max-width:  140px;
+         font-size: 8px;
+         position: relative;
+         top: -5;
+         left: 57px;
+     }
+     .content{
+width: 280px;
+position: relative;
+top: 0;
+right: 6px;
+
+     }
+     #rep{
+       width: 250px; 
+       margin-top: 20px; 
+       position: relative;
+         top: -100;
+         left: 7px;
+     }
+     
+       }   
+      #san{
+          margin-left: 17px;
+
+      }
+      @media (max-width:700px) {
+        .container{
+        width: fit-content;
+        width: 500px;
+        } 
+      }
+      @media (max-width:650px) {
+        .container{
+        width: fit-content;
+        width: 500px;
+        }
+      }
+      @media (max-width:600px) {
+        .container{
+        width: fit-content;
+        width: 500px;
+      }
+    }
+
+      @media (max-width:550px) {
+        .container{
+        width: fit-content;
+        width: 400px;
+      }
+     } 
+
+      @media (max-width:500px) {
+        .container{
+        width: fit-content;
+        width: 450px;
+      }
+    }
+
+      @media (max-width:450px) {
+        .container{
+          width: 400px;
+        width: fit-content;
+      }
+    }
+
+      @media (max-width:400px) {
+        .container{
+        width: fit-content;
+        width: 350px;
+      }
+    }
+
+      @media (max-width:350px) {
+        .container{
+          width: 300px;
+        width: fit-content;
+      }
+    }
+
+      @media (max-width:300px) {
+        .container{
+        width: fit-content;
+        width: 290px;
+        padding: 10px 10px 0px 0px;
+        padding-top: 20px;
+        position: relative;
+        padding-left: 20px;
+top: 0;
+right: 16px;
+margin-right: 10px;
+      }
+      .search{
+        max-width:  260px;
+position: relative;
+top: 0;
+right: 6px;
+
+     }
+
+     #search-icon{
+        max-width:  50px;
+         font-size: 8px;
+         position: relative;
+         top: -5;
+         right: 30px;
+     }
+     .content{
+width: 260px;
+position: relative;
+top: 0;
+right: 6px;
+
+     }
+     
+    }
+      @media (max-width:250px) {
+        .container{
+          
+        width: fit-content;
+       max-width:  300px;
+      }
+      
+    }
     </style>
 </head>
  
@@ -122,7 +323,8 @@
     
 
     <div class="search">
-        <i class="fa fa-search" style="color: rgb(80, 80, 184); font-size: 16px;"></i>   <h3 style="position: relative;top: 0;left: -85px;color: #fff;">   <input type="search"   style="background-color:rgb(17, 17, 32);
+        <i class="fa fa-search" style="color: rgb(80, 80, 184); font-size: 16px;"></i>   <h3 style="position:
+         relative;top: 0;left: -85px;color: #fff;">   <input type="search" id="search-icon"  style="background-color:rgb(17, 17, 32);
         border: none;color: #fff;font-size: 10px; width: 140px;padding: 7px;" placeholder="Search GitHub username..."> </i>  </h3>
         <h5 style="width: 45px;padding: 5px;background-color: skyblue;color: #fff;text-align: center;border-radius: 4px;"> <button style="font-size: 9px;border: none;background-color: skyblue;color: #fff;font-family: serif;cursor: pointer;">Search</button> </h5> 
     </div>   
@@ -132,12 +334,12 @@
         <p ><img src="images/githublogo3.png" style="width: 70px;height: 70px; border-radius: 50%;padding: 5px;"></p>
         <div id="octocat">
             <li style="color: #fff;font-family: Arial, Helvetica, sans-serif;font-weight: bold;font-size: 14px;">The Octocat</li>
-            <li style="color: rgb(80, 80, 184); font-family: Arial, Helvetica, sans-serif;font-weight: bold;font-size: 10px;line-height: 20px;"> @octocat</li>
+            <li style="color: rgb(25, 25, 143); font-family: Arial, Helvetica, sans-serif;font-weight: bold;font-size: 10px;line-height: 20px;"> @octocat</li>
             <li style="color:#fff;font-family: Arial, Helvetica, sans-serif;font-weight: bold;font-size: 10px;line-height: 20px;">Joined 25 Jan 2011</li>
         </div>
         </div>
-<p style="font-size: 10px;margin-top: 20px;color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, odio id? Eos ipsa quia 
-    fugit perferendis repellendus accusantium rem, odio nulla eum, tempore error.</p>
+      <p id="fugit" style="font-size: 10px;margin-top: 20px;color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, odio id? Eos ipsa quia 
+       fugit perferendis repellendus accusantium rem, odio nulla eum, tempore error.</p>
     </div>
 
     <div id="rep">
